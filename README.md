@@ -68,7 +68,6 @@ The search engine provides:
 
 ## Important Notes
 - Ensure your internet connection is stable for data scraping.
-- The `tv_search_engine.py` script is case-insensitive, so you can enter search criteria in any case.
 
 ## Author
 - **Sandesh Lingayat** 
