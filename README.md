@@ -16,11 +16,11 @@ This project involves two main components:
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/croma-tv-scraper.git
+    git clone https://github.com/stranger-814/croma_scraper.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd croma-tv-scraper
+    cd croma_scraper
     ```
 3. Install the required dependencies:
     ```bash
@@ -37,6 +37,8 @@ The `croma_spider.py` script scrapes product details from the Croma website, suc
     scrapy crawl croma_api_spider -o cromaTV.csv -t csv
     ```
 2. The data will be stored in a file named `cromaTV.csv` in the project directory.
+
+   ![csv](https://github.com/user-attachments/assets/eebc1bc6-7f23-412f-9a28-15f61eaf6032)
 
 ## Part 2: Building the TV Search Engine
 
@@ -58,6 +60,9 @@ The search engine provides:
 - Top 3 highest average rating products
 
 ## Example Usage
+![Screenshot 2024-09-23 120148](https://github.com/user-attachments/assets/8a46e609-230f-41af-9a2d-5475db5bb8a7)
+![Screenshot 2024-09-23 120225](https://github.com/user-attachments/assets/df565924-b5ad-4d19-8d4c-6baf466b0095)
+
 
 
 
