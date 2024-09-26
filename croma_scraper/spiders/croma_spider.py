@@ -36,7 +36,8 @@ class CromaApiSpider(scrapy.Spider):
                 'Average Rating Score': product.get('averageRating'),  
                 'Count of Ratings': product.get('numberOfRatings'),    
                 'Count of Reviews': product.get('numberOfReviews'), 
-                'Product URL': full_product_url  
+                'Product URL': full_product_url,
+                'Image_url' : product.get("plpImage")  
             }
             self.listing_position += 1
 
